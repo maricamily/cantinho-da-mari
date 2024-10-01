@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/static/css/header.css" rel="stylesheet">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="retro-header">
+            <div class="logo-and-title">
+                <img src="/src/assets/header-logo.png" alt="Logo" class="logo" />
+                <h1>Cantinho da Mari</h1>
+            </div>
+            <div class="control-buttons">
+                <button>-</button>
+                <button>▢</button>
+                <button>✕</button>
+            </div>
+        </div>
+        <div class="retro-bar">
+            <p>File</p>
+            <p>Edit</p>
+            <p>View</p>
+            <p>Go</p>
+            <p>Communicator</p>
+            <p>Help</p>
+        </div>
+
+        <div class="retro-controls">
+            <button class="icon-button">
+                <img src="/src/assets/home-logo.png" class="logo" alt="lego logo">
+                <span>Home</span>
+            </button>
+            <button class="icon-button">
+                <img src="/src/assets/articles-logos.png" class="logo" alt="notebook retro">
+                <span>Artigos (É PRA LER)</span>
+            </button>
+            <button class="icon-button">
+                <img src="/src/assets/notebook-logo.png" class="logo" alt="notebook retro">
+                <span>Diário</span>
+            </button>
+            <button class="icon-button">
+                <img src="/src/assets/wishlist-logo.png" class="logo" alt="notebook retro">
+                <span>Se eu fosse herdeira (wishlist)</span>
+            </button>
+        </div>
+    </header>
+    <!-- Bloco onde o conteúdo específico de cada página será injetado -->
+
+    <!-- Footer que será exibido em todas as páginas -->
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
